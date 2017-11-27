@@ -57,3 +57,6 @@ function callMe() {
   console.log("maybe")
 }
 callMe();
+function callMe() {
+  console.log("maybe")
+}
