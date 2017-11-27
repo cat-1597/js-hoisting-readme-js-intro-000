@@ -52,3 +52,4 @@ v
 var callMe;
   callMe = "maybe";
 }
+callMe();
