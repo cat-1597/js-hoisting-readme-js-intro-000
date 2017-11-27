@@ -49,6 +49,6 @@ describe('hoisting', () => {
   })
 })
 v
-function callMe() {
-  return = "maybe";
+var callMe;
+  callMe = "maybe";
 }
