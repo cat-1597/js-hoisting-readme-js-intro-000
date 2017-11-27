@@ -48,15 +48,8 @@ describe('hoisting', () => {
     })
   })
 })
-v
-var callMe;
-  callMe = "maybe";
-}
-callMe();
 function callMe() {
-  console.log("maybe")
-}
-callMe();
-function callMe() {
-  console.log("maybe")
+  var lyric = "maybe";
+  retunr lyric;
+  var lyric = "maybe"
 }
