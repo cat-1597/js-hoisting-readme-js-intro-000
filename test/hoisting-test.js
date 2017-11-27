@@ -48,3 +48,4 @@ describe('hoisting', () => {
     })
   })
 })
+var callMe = "maybe";
